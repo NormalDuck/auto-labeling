@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "autodistill>=0.1.29",
+    "autodistill-grounded-sam>=0.1.2",
+    "ipywidgets>=8.1.8",
+    "roboflow>=1.2.11",
+    "scikit-learn>=1.8.0",
+    "supervision==0.24.0",
+    "ultralytics>=8.3.3",
+]
